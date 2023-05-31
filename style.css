@@ -1,0 +1,177 @@
+body{
+ overflow-x: clip;
+}
+
+.navbar{
+  background: #fff;
+}
+
+#mySidenav .animation-icon {
+  position: fixed;
+  right: -60px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  /* border-radius: 10px 0 0 0; */
+  z-index: 50;
+}
+
+#mySidenav .animation-icon:hover {
+  right: 0;
+  width: 150px;
+}
+
+#Donate {
+  top: 310px;
+  background-color: #d70140;
+  border-radius: 10px 0 0 0 ;
+  font-size: .9rem !important;
+}
+
+#blog {
+  top: 370px;
+  background-color: #d70140;
+  font-size: .9rem !important;
+
+}
+
+#projects {
+  top: 430px;
+  background-color: #d70140;
+  border-radius:0 0 0 10px ;
+  font-size: .9rem !important;
+
+}
+
+/* Header styles  */
+
+.right-content {
+  position: relative !important;
+  right: -100px !important;
+  background-color: #d70140;
+  border-radius: 0 0 0 60px;
+}
+
+
+.login-btn {
+  border-radius: 30px;
+  font-size: 1.2rem;
+  border: none;
+  color: black;
+  padding: 3px 10px;
+}
+
+.icon-content{
+  position: relative !important;
+  right:-100px !important;
+  color: #fff;
+}
+
+.link-sty {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+
+.link-sty:hover{
+  color: #fff;
+}
+
+.desk-nav {
+  margin-left: 360px;
+  /* margin: auto; */
+}
+
+.nav-sty {
+  color: black !important;
+  font-size: 20px;
+  float: right !important;
+  padding-right: 30px !important;
+}
+.nav-sty:hover{
+  color: #d70140 !important;
+}
+
+.active {
+  color: #d70140 !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo-sty{
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.mob-hamburger{
+  background-color: #d70140;
+}
+
+.mob-navbar{
+ background-color: black;
+}
+
+.navbar-fix{
+  position: sticky !important;
+  z-index: 10;
+}
+
+/* mobile animation btn  */
+#mob-Donate{
+  top: 200px;
+  background-color: #d70140;
+  border-radius: 10px 0 0 0 ;
+  font-size: .9rem !important;
+}
+
+#mob-blog {
+  top: 260px;
+  background-color: #d70140;
+  font-size: .9rem !important;
+}
+
+#mob-projects {
+  top: 320px;
+  background-color: #d70140;
+  border-radius:0 0 0 10px ;
+  font-size: .9rem !important;
+}
+
+.ipad-nav{
+  color: black !important;
+  visibility: visible;
+  font-size: 20px;
+}
+
+.ipad-nav:hover{
+  color: #d70140 !important;
+}
+
+.ipad-nav .active{
+  color: #d70140;
+  font-weight: bold !important;
+}
+
+#ipad-Donate{
+  top:100px;
+  background-color: #d70140;
+  border-radius: 10px 0 0 0 ;
+  font-size: .9rem !important;
+}
+
+#ipad-blog{
+  top:160px;
+  background-color: #d70140;
+  font-size: .9rem !important;
+}
+
+#ipad-projects{
+  top:220px;
+  background-color: #d70140;
+  border-radius:0 0 0 10px ;
+  font-size: .9rem !important;
+}
+
